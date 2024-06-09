@@ -1,3 +1,4 @@
+@use './variables';
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,6 @@
 }
 
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: variables.$bg-color;
+    color: variables.$text-color;
 }
